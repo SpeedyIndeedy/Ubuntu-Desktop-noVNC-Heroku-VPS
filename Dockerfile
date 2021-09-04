@@ -26,7 +26,7 @@ RUN apt-get update && \
     apt install unzip -y  && \
     apt install falkon -y  && \
     apt install software-properties-commonl -y  && \
-    apt update
+    apt update  && \
     add-apt-repository ppa:deadsnakes/ppa -y  && \
     apt install python3.8 -y  && \
     apt-get autoclean -y  && \
